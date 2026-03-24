@@ -1,21 +1,32 @@
 # Ambiente virtual
+
 .venv/
 
 # Cache do Python
-__pycache__/
+
+**pycache**/
 *.py[cod]
 *$py.class
 
 # Arquivos de configuração de ambiente
+
 .env
 
+# Bancos de dados
+
+*.db
+*.sqlite3
+
 # Logs
+
 *.log
 
 # Arquivos do sistema
+
 .DS_Store
 Thumbs.db
 
 # IDEs / editores
+
 .vscode/
 .idea/
